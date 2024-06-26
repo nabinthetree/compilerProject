@@ -1,0 +1,32 @@
+
+
+
+
+
+
+main 
+
+var i,j;
+array[3][5] trans;
+
+{
+
+    let i <- 0;
+
+    while i < 3
+
+    do 
+
+        let j <- 0;
+
+        while j < 5
+
+        do 
+            let trans[i][j] <- i * j;
+            let j <- j + 1;
+        od;
+        let i <- i + 1;
+    od;
+
+
+}.

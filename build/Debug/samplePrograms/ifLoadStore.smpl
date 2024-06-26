@@ -1,0 +1,29 @@
+
+
+
+
+main
+
+array[3] cubePos;
+var a,b;
+
+{
+
+   let cubePos[0] <- call InputNum();
+   let a <- call InputNum();
+   if cubePos[0] > 0
+
+   then 
+
+        call OutputNum(10);
+        let cubePos[1] <- cubePos[0] + 11;
+        let cubePos[0] <- cubePos[0] * 2;
+    else 
+        call OutputNum(20);
+        let cubePos[2] <- cubePos[0] + 21;
+        let cubePos[0] <- cubePos[0] * 13;
+    fi;
+
+    let cubePos[1] <- cubePos[0] + cubePos[1];
+    let cubePos[2] <- cubePos[0] + cubePos[2];
+}.

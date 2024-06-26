@@ -1,0 +1,14 @@
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/compilerDataStructures.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/smpl.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/ssaPhiTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/instrTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/containerTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/ssaInstrTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/dotGraphTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/ssaRenameTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/ssaComSubTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/hashTableTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/arraysTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/symTableTest.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/ALL_BUILD.dir
+C:/Users/navin/source/repos/compilerProject/CMakeFiles/ZERO_CHECK.dir

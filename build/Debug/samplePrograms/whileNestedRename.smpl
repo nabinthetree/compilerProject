@@ -1,0 +1,31 @@
+
+
+
+
+
+main 
+
+var i,j,bound;
+
+{
+
+    let bound <- call InputNum();
+    let i <- 0;
+
+    while i < bound 
+
+    do 
+
+        let j <- i + call InputNum();
+        while j < bound 
+        
+        do 
+            call OutputNum(i * j);
+            let j <- j + 1;
+        od;
+
+        call OutputNum(i);
+        let i <- i + 1;
+        
+    od;
+}.

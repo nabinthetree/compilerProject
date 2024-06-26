@@ -1,0 +1,36 @@
+
+
+
+main 
+
+var a,b,c;
+
+{
+
+    let a <- call InputNum();
+    let b <- call InputNum();
+
+    if a > b
+
+    then 
+        let c <- a - 1;
+        while a - 1 > 0 
+        do
+            call OutputNum(a);
+            let a <- a - 1;
+        od;
+        let c <- c - (b * (a-1));
+    else 
+        let c <- b / 2;
+        while b / 2 > 0
+
+        do 
+
+            call OutputNum(b / 2);
+            let b <- b / 2;
+        od;
+        let c <- (b/2) - (a + 10);
+    fi;
+    let c <- c * (b/2) + (a - 1);
+
+}.

@@ -1,0 +1,39 @@
+
+
+
+
+
+
+main
+
+
+var bCol,bRow, cCol, cRow;
+var bColSize,bRowSize,cColSize,cRowSize;
+var temp;
+array[3][3] op1,op2, result;
+
+
+{
+
+    let cColSize <- 3;
+    let cRowSize <- 3;
+    let cCol <- 0;
+    let bRow <- 0;
+
+        while cCol < cColSize
+
+        do 
+            let cRow <- 0;
+            let temp <- 0; 
+            call OutputNum(cRow);
+            while cRow < cRowSize
+
+            do 
+                let op2[cRow + 2][cCol] <- call InputNum();
+                let op1[bRow][cRow] <- call InputNum();
+                
+            od;
+            let cCol <- cCol + 1;
+        od;
+
+}.

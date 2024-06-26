@@ -1,0 +1,41 @@
+
+
+
+
+
+main 
+
+var year;
+var isLeapYear;
+var temp;
+
+{
+
+
+    let year <- call InputNum();
+    let isLeapYear <- 0;
+
+    let temp <- year / 4;
+
+    if temp * 4 == year
+
+    then 
+        
+        let isLeapYear <- 1;
+
+    else 
+
+        let temp <- year / 400;
+        
+        if temp * 400 == year 
+
+        then
+            let isLeapYear <- 1;
+
+        fi;
+    fi;
+
+    call OutputNum(isLeapYear);
+
+
+}.

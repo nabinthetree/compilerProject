@@ -1,0 +1,69 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "compilerDataStructures::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "smpl::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ssaInstrTest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "dotGraphTest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ssaRenameTest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ssaComSubTest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "hashTableTest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "arraysTest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "symTableTest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ssaPhiTest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "instrTest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "containerTest::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

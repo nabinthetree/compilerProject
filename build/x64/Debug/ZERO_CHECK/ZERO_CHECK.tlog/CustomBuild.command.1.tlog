@@ -1,0 +1,10 @@
+^C:\USERS\NAVIN\SOURCE\REPOS\COMPILERPROJECT\BUILD\CMAKEFILES\3E91CF4AB232A0E1FE5A9A05FCA939D5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/navin/source/repos/compilerProject -BC:/Users/navin/source/repos/compilerProject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/navin/source/repos/compilerProject/build/directory_test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,8 @@
+
+
+
+let m <- (y2 - y1) / (x2 - x1)
+let y <- m * x  + b
+
+let F <- m * dv / dt
+let Fres <- (g - c) * (g - c) / ((g + c) * (g + c))

@@ -1,0 +1,38 @@
+
+
+
+
+
+main 
+
+var a,b,c;
+var d,e,f;
+var g,h,i;
+
+
+{
+
+    let a <- call InputNum();
+    let b <- call InputNum();
+    let c <- call InputNum();
+
+
+    while a > 0
+
+    do 
+
+        let a <- a - d;
+        let d <- d + 1;
+        let e <- d + 1 + c;
+
+        while d + 1 > b 
+
+        do 
+
+            let e <- (d + 1) * 40;
+        od;
+    od;
+
+    let i <- d + 1;
+
+}.

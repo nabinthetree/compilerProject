@@ -1,0 +1,33 @@
+
+
+
+
+
+main 
+
+var a,b,c;
+
+{
+    let a <- call InputNum();
+    let b <- call InputNum();
+    let c <- 0;
+    
+    while a+1 > b+1 
+
+    do 
+
+        if ((a+1) / 2) * 2 != a + 1
+
+        then 
+
+            call OutputNum(a + 1);
+
+        else 
+
+            call OutputNum(b + 1);
+        fi;
+        let c <- (a+1)*(b+1);
+    od;
+
+    call OutputNum((a+1)*(b+1));
+}.

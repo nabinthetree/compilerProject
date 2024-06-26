@@ -1,0 +1,30 @@
+
+
+
+
+main 
+
+var a,b,c;
+array[2] e;
+
+
+{
+    let a <- call InputNum();
+    let b <- call InputNum();
+
+    let e[1] <- call InputNum();
+
+
+    if a > 0
+
+    then 
+
+        let e[1] <- a + b;
+    else 
+        let e[1] <- b - a;
+    fi;
+
+
+
+
+}.

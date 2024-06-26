@@ -1,0 +1,42 @@
+
+
+main
+
+var b;
+var a;
+var e;
+
+
+{
+let a <- 3 * ( 4 - 2 );
+let b <- a;
+let e <- 3;
+let a <- (b + a) * 30 + 2 *( 3 + 4);
+
+if a > 5
+
+then
+	let a <- 3 * ( 5 + b );
+
+	if b > a
+
+	then
+		let b <- a - 5;
+
+	else
+		let a <- b - 5;
+	fi;
+
+else
+	let a <- 4 * b + 2; 
+	
+	if e + 10 < b
+	then
+		let e <- 10 + a + b;
+	else
+		let e <- 10 - a - b;
+	fi;
+fi;
+
+let e <- a + b;
+}.

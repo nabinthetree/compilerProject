@@ -1,0 +1,37 @@
+
+
+
+
+
+
+main 
+var counter,c;
+
+{
+
+    let counter <- call InputNum();
+    let c <- call InputNum();
+  
+    while counter < 15 
+
+    do 
+
+        call OutputNum(counter);
+        let counter <- counter + 1;
+
+        while c < 15
+
+        do 
+
+            if (c / 2) * 2 == c 
+
+            then
+                call OutputNum(c);
+            fi;
+            let c <- c + 1;
+
+        od;
+    od;
+
+
+}.

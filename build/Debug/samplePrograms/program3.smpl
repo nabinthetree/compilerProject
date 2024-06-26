@@ -1,0 +1,24 @@
+
+
+
+main
+
+
+var a,b,c;
+
+
+{
+
+    let a <- 5;
+
+    while a > 0
+
+    do
+        call OutputNum(a);
+        let a <- a - 1;
+
+    od;
+
+    return;
+
+}.

@@ -1,0 +1,38 @@
+
+
+
+
+
+
+main 
+
+
+var a,b,c,d,e;
+var m,x,y;
+
+{
+
+
+    let a <- call InputNum();
+    let m <- call InputNum();
+    let x <- call InputNum();
+    let y <- call InputNum();
+
+    let b <- 15;
+    let c <- 25;
+
+    let d <- a + 1;
+
+    while a + 1 < 10 + d
+
+    do
+        let a <- a + 1 + b;
+        let c <- 1 + a + b;
+        let b <- ( a + 2) * 40;
+
+        let d <- m * x + y;
+    od;
+
+    let e <- m * x + y;
+    call OutputNum(e);
+}.

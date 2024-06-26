@@ -1,0 +1,34 @@
+
+
+
+
+
+
+main 
+
+
+var i,j,temp;
+
+{
+    let i <- call InputNum;
+    let j <- call InputNum;
+
+
+    while i < j
+
+    do 
+
+        if (i / 2) * 2 == i 
+
+        then 
+            call OutputNum(i);
+        else 
+            call OutputNum(j-i);
+        fi;
+
+        let j <- j + 1;
+        let i <- i + 1;
+    od;
+
+
+}.

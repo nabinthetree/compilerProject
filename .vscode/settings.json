@@ -1,0 +1,14 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "stdio.h": "c",
+        "iovar.h": "c",
+        "string.h": "c",
+        "facfunc.h": "c",
+        "compfunc.h": "c",
+        "lexer.h": "c",
+        "vardecfunc.h": "c",
+        "identfunc.h": "c",
+        "ssainstrrename.h": "c"
+    }
+}

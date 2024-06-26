@@ -1,0 +1,10 @@
+
+
+0 - 10 + b * b - 4 * a * c
+( y2 - y1 ) / (x2 - x1)
+m * x + b
+n * (n + 1) / 2
+
+(x1 + x2 + x3) / call sum(x,y,z,w)
+0 - b + call sqrt(b * b - 4 * a * c) / (2 * a)
+call randomFloat() * (max - min) + min

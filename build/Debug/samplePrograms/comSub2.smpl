@@ -1,0 +1,19 @@
+
+
+
+main 
+
+var a,b,c,e;
+
+{
+
+    let e <- e + e;
+    let a <- call InputNum();
+    let b <- a + a;
+    let c <- 5 * (a + a);
+    
+    call OutputNum(c/a);
+    call OutputNum(b + c/a);
+    call OutputNum((a+a)*5 - c/a);
+
+}.

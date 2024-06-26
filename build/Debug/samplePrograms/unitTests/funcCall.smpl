@@ -1,0 +1,13 @@
+
+
+
+
+call InputNum
+call OutputNum(x)
+
+call OutputNewLine()
+call swap(x,y)
+
+call InputNum
+
+call average( x1 + x2 + x3 , b * b / ( c * c))

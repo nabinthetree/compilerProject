@@ -1,0 +1,28 @@
+
+
+
+
+
+main 
+
+var prev,cur,temp,numTerms;
+
+
+{
+    let temp <- 0;
+    let prev <- 1;
+    let cur <- 2;
+
+    let numTerms <- call InputNum();
+
+    while numTerms > 0
+
+    do 
+        let temp <- cur;
+        let cur <- cur + prev;
+        let prev <- cur;
+        call OutputNum(cur);
+        call OutputNum(temp);
+        let numTerms <- numTerms - 1;
+    od;
+}.

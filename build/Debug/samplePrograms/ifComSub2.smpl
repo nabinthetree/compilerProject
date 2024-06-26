@@ -1,0 +1,30 @@
+
+
+
+
+main 
+
+var a,b,c,d;
+
+{
+
+    let a <- call InputNum();
+    let b <- call InputNum();
+    let c <- call InputNum();
+
+
+    if a + b < c 
+
+    then 
+
+        let d <- a + b - c;
+
+    else 
+
+        let d <- c - (a+b);
+    fi;
+
+    let d <- d * (a+b);
+
+
+}.

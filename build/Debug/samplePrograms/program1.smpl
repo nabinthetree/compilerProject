@@ -1,0 +1,32 @@
+
+main
+
+var a,b,c,d,counter;
+
+array[2][3] e;
+array[10] f;
+
+{
+    let counter <- 0;
+
+    let a <- call InputNum();
+    let b <- call InputNum();
+
+    let c <- (a - 4) * (b - 8);
+    let d <- 2 * 2 / 2;
+
+    let e[1][2] <- a ;
+
+    let e[b][1] <- a + b;
+
+    call OutputNum(d);
+
+    while b > 0 
+
+    do
+        let f[b] <- counter + b;
+        let counter <- counter + 1;
+        let b <- b - 1;
+    od;
+
+}.

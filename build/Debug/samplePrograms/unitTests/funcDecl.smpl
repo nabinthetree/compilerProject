@@ -1,0 +1,37 @@
+
+
+
+
+void function PrintFibnacci(numTerms);
+var temp,f0,f1,counter;
+{
+    let f0 <- 1;
+    let f1 <- 2;
+    let counter <- 3;
+
+    call OutputNum(f0);
+    call OutputNum(f1);
+
+    while counter < numTerms 
+
+    do
+        call OutputNum(f0 + f1);
+        let temp <- f1;
+        let f1 <- f1 + f0;
+        let f0 <- temp;
+
+        let counter <- counter + 1;
+    od;
+};
+
+function PrintMenu()
+var options;
+{
+    let options <- 10;
+    while options > 0
+    do
+        call OutputNum(options);
+        call OutputNewLine();
+        let options <- options - 1;
+    od;
+};

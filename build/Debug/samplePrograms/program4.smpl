@@ -1,0 +1,49 @@
+
+
+
+
+main
+
+var a,b,c,d,e;
+
+{
+   
+   let b <- a;
+   let c <- b;
+   let d <- b + c;
+   let e <- a + b;
+
+   if a < 0
+
+   then
+
+      let d <- d + e;
+      let a <- d;
+
+      if e > 0
+
+      then 
+         let e <- e + a;
+      
+      else 
+         let e <- e - 5;
+      fi;
+
+   else
+
+      let d <- e;
+
+      if d > 15
+
+      then 
+
+         let e <- d + 10 - 4;
+
+      else 
+
+         let e <- d - 10 + 4;
+      fi;
+
+   fi;
+
+}.
